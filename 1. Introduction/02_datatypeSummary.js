@@ -34,3 +34,24 @@ const myfuction= function(){
     
 }
 
+//*********************************************************************************************************** */
+// stack(Primitive), head(Non-primitive)
+
+let myYoutubeName="Sanjeev Suman"
+let anotherName=myYoutubeName;
+anotherName="Kunal Au"
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let user={
+    email:"user@google.com",
+    UPI: "user@ybl"
+    
+}
+let user2=user;
+user2.email="sanjeev@google.com"
+console.log(user.email);
+console.log(user2.email);
+
+
