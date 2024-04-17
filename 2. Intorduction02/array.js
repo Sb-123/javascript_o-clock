@@ -16,9 +16,12 @@ const myHeors= new Array(1,2,3,4)
 
 
 
-// myArr.unshift(9)
-// console.log(myArr);
-// myArr.shift()
+// myArr.unshift(9)  // it adds one or more elements to the beginning of an aarray and returns the new length.
+                     // myArr.prototype.push() has similar behavior to unshift(), but applied to the end of the array.
+
+ // console.log(myArr);
+myArr.shift()   //The shift() method removes the element at the zeroth index and shifts the values at consecutive indexes down, then returns the removed value. If the length property is 0, undefined is returned.
+
 
 
 
@@ -29,7 +32,7 @@ const myHeors= new Array(1,2,3,4)
 
 
 
-const newArr=myArr.join()
+const newArr=myArr.join() // it convert the array into a single string.
 console.log(myArr);
 console.log(newArr)
 
@@ -37,7 +40,7 @@ console.log(newArr)
 //+++++++++++++++++++++++++++++++++++ slice, splice +++++++++++++++++++++++++++++++=
 
 console.log("A ", myArr);
-const myn1= myArr.slice(1,3)
+const myn1= myArr.slice(1,3) // 
 
 console.log(myn1)
 console.log("B ",myArr);
