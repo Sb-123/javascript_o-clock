@@ -34,6 +34,7 @@ console.log(Array.of(score1,score2,score3)); // o/p:-[100,200,300]
 
 
 
+// console.log("Sanjeev");
 
 
 
