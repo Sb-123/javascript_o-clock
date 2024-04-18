@@ -30,14 +30,14 @@ JsUser.email="Sanjeev@microsoft.come"
 // console.log(JsUser);
 
 
-JsUser.greeting = function(){
-    console.log("Hello Js user");
+// JsUser.greeting = function(){
+//     console.log("Hello Js user");
 
-}
-JsUser.greetingTwo = function(){
-    console.log(`Hello Js user, ${this.name}`);
+// }
+// JsUser.greetingTwo = function(){
+//     console.log(`Hello Js user, ${this.name}`);
 
-}
+// }
 
-// console.log(JsUser.greeting); // o/p :- undefined
-console.log(JsUser.greeting());
+// // console.log(JsUser.greeting); // o/p :- undefined
+// console.log(JsUser.greeting());
