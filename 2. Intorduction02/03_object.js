@@ -3,7 +3,7 @@
 
 // object literals
 
-const mySym=Symbol("key1")  // symbol is decleared is way.
+const mySym=Symbol("key1")  // symbol is decleared this way.
 
 
 const JsUser={ 
@@ -26,7 +26,7 @@ console.log(JsUser[mySym]);
 
 
 JsUser.email="Sanjeev@chatgpt.com" // re_assign the object's value means that change the value.
-Object.freeze(JsUser)              // it is the way to freeze the object value to change.
+// Object.freeze(JsUser)              // it is the way to freeze the object value to change.
 JsUser.email="Sanjeev@microsoft.come"
 console.log(JsUser); // output is still be "Sanjeev@chatgpt.com" b/c object is freezed.
 
@@ -37,3 +37,12 @@ JsUser.greeting= function(){
 }
 
 console.log(JsUser.greeting);   // o/p:- undefined
+console.log(JsUser.greeting());   // o/p:-JsUser.greeting is not a function.(error)
+console.log(JsUser.greeting());   // after remove comment from object.freeze(JsUser) then o/p:- Hello Js user \n undefined.
+
+JsUser.greetingTwo=function(){
+    console.log(`Hello JS user, ${this.name}`);
+
+}
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
