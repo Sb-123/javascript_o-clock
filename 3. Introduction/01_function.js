@@ -32,7 +32,7 @@ addTwoNumbers(4,5); // o/p:-9
 const result= addTwoNumbers(3,5);
 console.log("Result:", result);
 
-// ****************************************************                    ************************************************
+// ****************************************************  if and else condition  ************************************************
 function loginUserMessage(username){
     if(username=== undefined){
         console.log("Please enter a username");
