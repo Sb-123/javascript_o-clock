@@ -52,6 +52,19 @@ py
 java
 cpp
  */
+// ***************************************************************** maps (again)  **************************************************************************************
+
+
+
+const map =new Map();
+map.set("IN", "India")
+map.set("USA","United State of America")
+map.set("Fr","France")
+map.set("IN","India")
+
+for(const key in map){
+    console.log(key); // o/p totally blank b/c map isn't a iteratable thing that's why we can't write this way. 
+}
+
+
 // *******************************************************************************************************************************************************
-
-
