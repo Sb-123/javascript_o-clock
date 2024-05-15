@@ -1,3 +1,6 @@
+// ************************************* "for in" loop (it is also a special types and it is different from "for of" loop) ************************************
+
+
 const myObject={
     js:'javascript',
     cpp: 'c++',
