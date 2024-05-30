@@ -13,8 +13,8 @@
 
 
 
-``` javascript 
-console.log("hitesh");
+``` javascript  
+
 // console.log("Sanjeev")
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
