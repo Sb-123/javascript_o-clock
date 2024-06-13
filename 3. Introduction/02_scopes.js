@@ -44,7 +44,7 @@ if(true){
 
 
 
-console.log(addOne(5)); // o/p:- 6. It give the result but we can see that function is below.
+console.log(addOne(5)); // o/p:- 6. It give the result but we can see that function is below b/c function is oction.
 
 function addOne(num){
     return num+1;
@@ -53,7 +53,7 @@ function addOne(num){
 addOne(5)
 
 
-addTwo(5) // o/p:- error b/c function is below means that  function is still not declared.
+addTwo(5) // o/p:- error b/c function is below means that  function is still not declared b/c const isn't an action.
            // we could not use the function before declaration.
 const addTwo=function(num){
     return num+2;
