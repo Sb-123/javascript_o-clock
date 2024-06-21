@@ -1,6 +1,6 @@
 //primitive
 // There are mainly 7 type.
-// 7 types : string,number, boolean, null, undefined, symbol,BigInt.
+// 7 types : string,number, boolean, null, undefined, symbol,BigInt. // NNBBSSU
 
 const score=100;
 const scoreValue =100.3;
