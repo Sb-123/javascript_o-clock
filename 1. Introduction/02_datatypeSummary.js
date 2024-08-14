@@ -57,5 +57,9 @@ let user2=user;
 user2.email="sanjeev@google.com"
 console.log(user.email);
 console.log(user2.email);
+/* o/p:-
+sanjeev@google.com
+sanjeev@google.com
+*/
 
 
