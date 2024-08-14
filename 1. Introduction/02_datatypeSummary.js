@@ -42,6 +42,10 @@ let anotherName=myYoutubeName;
 anotherName="Kunal Au"
 console.log(myYoutubeName);
 console.log(anotherName);
+/* o/p:-
+Sanjeev suman
+Kunal Au
+*/
 
 
 let user={
